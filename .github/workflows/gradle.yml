@@ -35,7 +35,7 @@ jobs:
         run: |
           ./gradlew setupDecompWorkspace
           ./gradlew build
-       - name: List files
+      - name: List files
         run: ls
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v2
